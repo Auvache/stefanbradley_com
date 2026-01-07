@@ -1,5 +1,17 @@
 [
   {
+    "slug": "failure-is-an-option",
+    "title": "Failure Is an Option",
+    "datePublished": "2026/01/07",
+    "categories" : ["failure"],
+    "featured": true,
+    "rank": 0,
+    "image": "pixar.jpg",
+    "keywords": "learning from failure, intelligent failure, Amy Edmondson, failing well, types of failure, growth mindset, learning from mistakes, iterative learning, overcome failure, psychological safety",
+    "description": "Failure is inevitable, but learning from it isn't. Discover how to remove ego, diagnose failure types, and turn mistakes into progress through reflection and iteration.",
+    "summary": "Pixar's shelved tadpole movie cost time and resources—but taught invaluable lessons. Learn to fail well by removing ego, diagnosing failure types, and responding with the right strategy to turn setbacks into progress."
+  },
+  {
     "slug": "escaping-the-trap-of-social-comparison",
     "title": "Escaping the Trap of Social Comparison",
     "datePublished": "2025/12/22",
@@ -190,18 +202,6 @@
     "keywords": "deep work, focus, Cal Newport, productivity, undistracted effort, meaningful work, cognitive performance, attention management",
     "description" : "Discover how to achieve truly great work by embracing deep focus. Learn why undistracted attention, not multitasking, leads to mastery, breakthroughs, and lasting results.",
     "summary": "True greatness comes from deep, focused work. Avoid multitasking and distractions to unlock clarity and produce meaningful results with undivided attention."
-  },
-  {
-    "slug": "failure-is-an-option",
-    "title": "Failure Is an Option",
-    "datePublished": "2025/07/04",
-    "categories" : ["failure"],
-    "featured" : false,
-    "rank" : 0,
-    "image": "pixar.jpg",
-    "keywords": "failure, Pixar, innovation, creative process, iteration, learning from mistakes, risk-taking, success through failure",
-    "description" : "Learn why failure is essential for growth. Pixar's shelved projects illustrate how embracing mistakes and iterating leads to innovation and long-term success.",
-    "summary": "Pixar's shelved film taught the power of failure and iteration. Failure isn't defeat—it's a vital step toward success and improvement in creativity and life."
   },
   {
     "slug": "ultracrepidarianism-imposter-syndrome-and-the-fight-for-humility",
