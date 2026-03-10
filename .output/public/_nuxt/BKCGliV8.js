@@ -1,0 +1,1 @@
+import{q as s,s as a,v as o,x as r,y as i}from"./CBnRMYeL.js";function u(n){var t;const e=n||a();return((t=e==null?void 0:e.ssrContext)==null?void 0:t.head)||(e==null?void 0:e.runWithContext(()=>{if(o())return r(i)}))}function f(n,e={}){const t=u(e.nuxt);if(t)return s(n,{head:t,...e})}export{f as u};

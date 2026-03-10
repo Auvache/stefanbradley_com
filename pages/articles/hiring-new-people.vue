@@ -3,7 +3,6 @@
     <div class="container thinnest-content">
       <div>
         <h1 class="mb-3">{{articleInfo.title}}</h1>
-	      <p class="tagline fst-italic blue mb-3">By Stefan Auvache</p>
 	      <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" alt="" class="mb-3">
 
         <p>Ray Dalio is the founder of <a href="https://www.bridgewater.com" target="_blank">Bridgewater</a>, one of the most successful investment firms on the planet. His life has largely been a quest to systematize and optimize decision making by learning the principles and laws that govern how things work. His book <a :href="affiliateLinks.books.principles" target="_blank">Principles</a> is broken up into three major sections; a biography of his career, his systems for life, and his systems for work. In the section about his work systems, he talks about his principles for hiring new people.</p>
@@ -54,7 +53,7 @@ const articleInfo = articlesList.find(article => article.slug === currentRoute.v
 // meta tags
 let metaTitle = `${articleInfo.title}`
 let metaDescription = `${articleInfo.description}`
-let metaKeywords = `Stefan, Stefan Auvache, Auvache, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
+let metaKeywords = `Stefan, Stefan Auvache Bradley, Bradley, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
 let metaCanonical = `www.stefanauvache.com/articles/${articleInfo.slug}`
 useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
 </script>

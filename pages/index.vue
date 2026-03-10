@@ -1,5 +1,5 @@
 <template>
-	<h1 class="ada-hide">Articles by Stefan Auvache</h1>
+	<h1 class="ada-hide">Articles by Stefan Auvache Bradley</h1>
 	<SubscribeBarHero />
 	<section class="section-padding">
 		<div class="container thin-content">
@@ -48,7 +48,7 @@ definePageMeta({
 })
 
 // meta tags
-let metaTitle = 'Agile Personal Development | Stefan Auvache'
+let metaTitle = 'Agile Personal Development | Stefan Auvache Bradley'
 let metaDescription = 'Stop chasing goals you don\'t actually want. Learn iterative, experimental frameworks from software engineering to build a life that actually fits. Join thousands testing their way to clarity.'
 let metaKeywords = 'agile personal development, iterative goal setting, life experiments, alternatives to goal setting, how to know what you want, sprint planning for life, personal development framework'
 let metaCanonical = 'https://www.stefanauvache.com'

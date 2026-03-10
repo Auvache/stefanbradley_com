@@ -1,1 +1,0 @@
-import{_,c as a,o as s,g as e,z as r,a as l,A as u,C as m,j as f}from"./BkC-4T2W.js";const p={};function d(o,i){const n=u,t=m,c=f;return s(),a("div",null,[e(n),r(o.$slots,"default"),e(t),l("footer",null,[e(c)])])}const x=_(p,[["render",d]]);export{x as default};

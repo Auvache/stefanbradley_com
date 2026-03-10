@@ -15,9 +15,9 @@ definePageMeta({
 })
 
 // meta tags
-let metaTitle = 'Thank You for Subscribing | Stefan Auvache'
+let metaTitle = 'Thank You for Subscribing | Stefan Auvache Bradley'
 let metaDescription = 'Thanks for joining the weekly newsletter. Check your inbox for your first email on Agile Personal Development and iterative approaches to life.'
-let metaKeywords = 'Stefan Auvache, agile personal development, newsletter confirmation'
+let metaKeywords = 'Stefan Auvache Bradley, agile personal development, newsletter confirmation'
 let metaCanonical = 'https://www.stefanauvache.com/thank-you'
 useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'noindex, follow'})
 </script>

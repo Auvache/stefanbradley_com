@@ -3,7 +3,6 @@
     <div class="container thinnest-content">
       <div>
         <h1 class="mb-3">{{articleInfo.title}}</h1>
-        <p class="tagline fst-italic blue mb-3">By Stefan Auvache</p>
         <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" alt="" class="mb-3">
 
         <p>George Yeomans Pocock saw barely any formal education after the age of 14. His was a life dedicated to the sport of rowing, specifically the art of handcrafting racing shells; long, narrow boats fit for a small team of rowers. He was born on the banks of the Thames in London to a father who built boats for a living. After winning money in a rowing contest, he and his brother Dick emigrated from England to British Columbia, Canada. His road eventually led him to the University of Washington in Seattle where he was able to hone and perfect his craft.</p>
@@ -59,7 +58,7 @@ const articleInfo = articlesList.find(article => article.slug === currentRoute.v
 // meta tags
 let metaTitle = `${articleInfo.title}`
 let metaDescription = `${articleInfo.description}`
-let metaKeywords = `Stefan, Stefan Auvache, Auvache, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
+let metaKeywords = `Stefan, Stefan Auvache Bradley, Bradley, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
 let metaCanonical = `www.stefanauvache.com/articles/${articleInfo.slug}`
 useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
 </script>

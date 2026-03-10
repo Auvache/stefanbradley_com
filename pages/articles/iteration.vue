@@ -53,7 +53,7 @@ categories.forEach(category => {
 })
 
 // meta tags
-let metaTitle = 'Iteration Over Planning: Test Your Way to Clarity | Stefan Auvache'
+let metaTitle = 'Iteration Over Planning: Test Your Way to Clarity | Stefan Auvache Bradley'
 let metaDescription = 'Stop locking into rigid plans. Learn how to iterate your way toward a fulfilling life through small experiments, feedback loops, and continuous adjustment.'
 let metaKeywords = 'iteration over planning, iterative self improvement, experimentation, feedback loops, test before committing, personal experiments, adaptive planning, continuous improvement'
 let metaCanonical = 'https://www.stefanauvache.com/articles/iteration'

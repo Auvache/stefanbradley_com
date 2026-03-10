@@ -53,7 +53,7 @@ categories.forEach(category => {
 })
 
 // meta tags
-let metaTitle = 'Agile Personal Development: Apply Software Principles to Life | Stefan Auvache'
+let metaTitle = 'Agile Personal Development: Apply Software Principles to Life | Stefan Auvache Bradley'
 let metaDescription = 'Learn how to apply Agile thinking from software engineering to personal growth, productivity, and intentional living. Discover frameworks, techniques, and practical applications for a more fulfilling life.'
 let metaKeywords = 'agile personal development, agile thinking, software engineering principles, personal growth, iteration, intentional living, productivity systems, agile methodology life, self improvement frameworks, experimentation over planning'
 let metaCanonical = 'https://www.stefanauvache.com/articles/agile'

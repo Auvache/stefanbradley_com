@@ -29,7 +29,7 @@ const articleInfo = articlesList.find(article => article.slug === currentRoute.v
 // meta tags
 let metaTitle = `${articleInfo.title}`
 let metaDescription = `${articleInfo.description}`
-let metaKeywords = `Stefan, Stefan Auvache, Auvache, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
+let metaKeywords = `Stefan, Stefan Auvache Bradley, Bradley, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
 let metaCanonical = `www.stefanauvache.com/articles/${articleInfo.slug}`
 useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
 </script>

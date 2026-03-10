@@ -3,7 +3,6 @@
     <div class="container thinnest-content">
       <div>
         <h1 class="mb-3">{{articleInfo.title}}</h1>
-        <p class="tagline fst-italic blue mb-3">By Stefan Auvache</p>
         <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" alt="" class="mb-3">
 
 	      <p>In 1995, Pixar broke ground by releasing <em>Toy Story</em>, the first-ever feature-length film created entirely with CGI. It made almost $30 million on its first weekend in theaters and grossed $358 million worldwide. For Ed Catmull, the president of Pixar, <em>Toy Story</em> was more than just a smashing financial success. Everyone raved about the story and the characters, but almost no one mentioned the cutting-edge computer animation used to tell that story and bring those characters to life. Pixar, though piloted by computer scientists and tech investors, had managed to make the telling of the tale more memorable than the medium.</p>
@@ -33,7 +32,7 @@ const articleInfo = articlesList.find(article => article.slug === currentRoute.v
 // meta tags
 let metaTitle = `${articleInfo.title}`
 let metaDescription = `${articleInfo.description}`
-let metaKeywords = `Stefan, Stefan Auvache, Auvache, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
+let metaKeywords = `Stefan, Stefan Auvache Bradley, Bradley, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
 let metaCanonical = `www.stefanauvache.com/articles/${articleInfo.slug}`
 useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
 </script>

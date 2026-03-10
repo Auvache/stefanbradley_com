@@ -53,7 +53,7 @@ categories.forEach(category => {
 })
 
 // meta tags
-let metaTitle = 'Productivity Systems for Intentional Living | Stefan Auvache'
+let metaTitle = 'Productivity Systems for Intentional Living | Stefan Auvache Bradley'
 let metaDescription = 'Build sustainable systems that create space for iteration and experimentation. Learn frameworks for focus, time management, and working deeply on what matters.'
 let metaKeywords = 'productivity systems, intentional living, time management, deep work, sustainable productivity, focus systems, environment design, productivity frameworks'
 let metaCanonical = 'https://www.stefanauvache.com/articles/systems'

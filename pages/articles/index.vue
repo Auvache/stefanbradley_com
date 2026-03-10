@@ -33,11 +33,6 @@
 					</div>
 				</div>
 
-				<div class="d-flex flex-column justify-content-center mt-5 text-center thinnest-content">
-					<NuxtLink class="btn" to="/all-articles">Browse more articles</NuxtLink>
-				</div>
-
-
 			</div>
 		</div>
 	</section>
@@ -87,9 +82,9 @@ for (let i in Articles) {
 }
 
 // meta tags
-let metaTitle = 'Stefan Auvache | Articles'
+let metaTitle = 'Stefan Auvache Bradley | Articles'
 let metaDescription = 'Read articles with insights on business, technology, literature, philosophy, music, and life.'
-let metaKeywords = 'Stefan, Stefan Auvache, Auvache, articles, agile living, agile, simple systems, intentional action, meaningful focus, Stefan Auvache articles'
+let metaKeywords = 'Stefan, Stefan Auvache Bradley, Bradley, articles, agile living, agile, simple systems, intentional action, meaningful focus, Stefan Auvache Bradley articles'
 let metaCanonical = 'https://www.stefanauvache.com/articles'
 useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
 

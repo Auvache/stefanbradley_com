@@ -13,9 +13,9 @@
 
 <script setup>
 // meta tags
-let metaTitle = 'Contact | Stefan Auvache'
-let metaDescription = 'Get in touch with Stefan Auvache. Questions about Agile Personal Development or collaboration inquiries welcome.'
-let metaKeywords = 'Stefan Auvache contact, agile personal development, contact Stefan Auvache'
+let metaTitle = 'Contact | Stefan Auvache Bradley'
+let metaDescription = 'Get in touch with Stefan Auvache Bradley. Questions about Agile Personal Development or collaboration inquiries welcome.'
+let metaKeywords = 'Stefan Auvache Bradley contact, agile personal development, contact Stefan Auvache Bradley'
 let metaCanonical = 'https://www.stefanauvache.com/contact'
 useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
 </script>

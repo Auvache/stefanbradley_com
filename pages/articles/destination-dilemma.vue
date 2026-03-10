@@ -53,7 +53,7 @@ categories.forEach(category => {
 })
 
 // meta tags
-let metaTitle = 'The Destination Dilemma: Making Decisions When You Don\'t Know What You Want | Stefan Auvache'
+let metaTitle = 'The Destination Dilemma: Making Decisions When You Don\'t Know What You Want | Stefan Auvache Bradley'
 let metaDescription = 'How can you plan for what you haven\'t experienced? Learn how to make better decisions under uncertainty and build a fulfilling life without knowing exactly where you\'re going.'
 let metaKeywords = 'destination dilemma, decision making uncertainty, finding fulfillment, what do i want in life, career uncertainty, achievement vs fulfillment, intentional living, life direction'
 let metaCanonical = 'https://www.stefanauvache.com/articles/destination-dilemma'

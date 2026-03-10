@@ -3,7 +3,7 @@
     <div class="container medium-content py-2">
       <div class="d-flex justify-content-between align-items-center">
         <NuxtLink class="logo" to="/">
-          STEFAN AUVACHE
+          STEFAN AUVACHE BRADLEY
         </NuxtLink>
         <div class="menu-links">
           <div>

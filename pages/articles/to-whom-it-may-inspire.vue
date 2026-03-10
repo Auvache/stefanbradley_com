@@ -3,7 +3,6 @@
     <div class="container thinnest-content">
       <div>
         <h1 class="mb-3">{{articleInfo.title}}</h1>
-        <p class="tagline fst-italic blue mb-3">By Stefan Auvache</p>
         <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" alt="" class="mb-3">
 
         <p>We often overestimate what we can do in a day and underestimate what we can do in a decade. On the day-to-day, progress can seem painstakingly slow, and it can be incredibly disheartening to compare ourselves to the people we wish we were. Whether you’ve been writing a book, working on a bachelor’s degree, or learning to play an instrument, it is easy to feel like the task at hand is insurmountable. Widen your lens, lengthen your timeline. Stick with it. All experts in the world were once beginners. Provided you are open to feedback and are doing your work, you will improve, and improvement is compounded over time.</p>
@@ -52,7 +51,7 @@ const articleInfo = articlesList.find(article => article.slug === currentRoute.v
 // meta tags
 let metaTitle = `${articleInfo.title}`
 let metaDescription = `${articleInfo.description}`
-let metaKeywords = `Stefan, Stefan Auvache, Auvache, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
+let metaKeywords = `Stefan, Stefan Auvache Bradley, Bradley, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
 let metaCanonical = `www.stefanauvache.com/articles/${articleInfo.slug}`
 useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
 </script>

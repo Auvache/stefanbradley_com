@@ -53,7 +53,7 @@ categories.forEach(category => {
 })
 
 // meta tags
-let metaTitle = 'Learning From Failure: Turn Setbacks into Growth | Stefan Auvache'
+let metaTitle = 'Learning From Failure: Turn Setbacks into Growth | Stefan Auvache Bradley'
 let metaDescription = 'Failure isn\'t defeat—it\'s data. Learn how to analyze setbacks, extract lessons, and use failure as fuel for continuous improvement and personal growth.'
 let metaKeywords = 'learning from failure, failure as data, growth mindset, resilience, learning from mistakes, post mortem analysis, reframing failure, iteration and feedback'
 let metaCanonical = 'https://www.stefanauvache.com/articles/failure'

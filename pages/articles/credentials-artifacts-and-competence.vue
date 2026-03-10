@@ -3,7 +3,6 @@
     <div class="container thinnest-content">
       <div>
         <h1 class="mb-3">{{articleInfo.title}}</h1>
-        <p class="tagline fst-italic blue mb-3">By Stefan Auvache</p>
 	      <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" alt="" class="mb-3">
 
 	      <p>As a young man, Nelson Mandela worked as a law clerk in Johannesburg, South Africa. Among his coworkers were lawyers and clerks with formal degrees—some of them from Fort Hare, the same university he had been expelled from for protesting against discrimination. Out of all of his well-educated coworkers, there was one standout. Gaur Radebe was sharp, confident, and had a deep understanding of both the laws that governed the land and how they were used to mistreat native South Africans. He was more capable than most of their other colleagues, and very well spoken. But what struck Nelson Mandela most was that Radebe, like himself, had no university degree.</p>
@@ -37,7 +36,7 @@ const articleInfo = articlesList.find(article => article.slug === currentRoute.v
 // meta tags
 let metaTitle = `${articleInfo.title}`
 let metaDescription = `${articleInfo.description}`
-let metaKeywords = `Stefan, Stefan Auvache, Auvache, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
+let metaKeywords = `Stefan, Stefan Auvache Bradley, Bradley, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
 let metaCanonical = `www.stefanauvache.com/articles/${articleInfo.slug}`
 useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
 </script>

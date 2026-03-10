@@ -1,10 +1,10 @@
 <template>
 	<section class="section-padding bg-black-denim">
 		<div class="container thin-content">
-			<h2 class="text-white">Stefan Auvache</h2>
+			<h2 class="text-white">Stefan Auvache Bradley</h2>
 			<hr class="white">
 			<div class="d-flex flex-column flex-sm-row align-items-center gap-4">
-				<img src="@/assets/img/profile.jpg" alt="Stefan Auvache" style="width: 250px; border: 1px solid rgba(255,255,255,0.25)" class="rounded-circle">
+				<img src="@/assets/img/profile.jpg" alt="Stefan Auvache Bradley" style="width: 250px; border: 1px solid rgba(255,255,255,0.25)" class="rounded-circle">
 				<div class="text-white">
 					<p>Hello. My name is Stefan.</p>
 					<p>I'm a software engineer with a Master's degree in Information Systems Management from BYU. I live in Vancouver, Washington with my family.</p>

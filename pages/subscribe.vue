@@ -23,9 +23,9 @@ definePageMeta({
 })
 
 // meta tags
-let metaTitle = 'Subscribe | Stefan Auvache'
+let metaTitle = 'Subscribe | Stefan Auvache Bradley'
 let metaDescription = 'Join the weekly newsletter on Agile Personal Development. Get one idea every week about iterating toward a life you actually want—no hype, no fluff.'
-let metaKeywords = 'agile personal development newsletter, Stefan Auvache subscribe, weekly insights, iterative self improvement'
+let metaKeywords = 'agile personal development newsletter, Stefan Auvache Bradley subscribe, weekly insights, iterative self improvement'
 let metaCanonical = 'https://www.stefanauvache.com/subscribe'
 useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
 </script>
