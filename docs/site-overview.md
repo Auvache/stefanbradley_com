@@ -2,7 +2,7 @@
 
 ## What This Site Is
 
-This repository powers `stefanauvache.com`, a personal development site centered on long-form essays plus a small newsletter funnel and a separate music landing page.
+This repository powers `stefanauvachebradley.com`, a personal development site centered on long-form essays plus a small newsletter funnel and a separate music landing page.
 
 The implementation is best understood as a content site built with Nuxt 3, Bootstrap utilities, and custom SCSS. There is no meaningful backend application logic in the repo right now.
 

@@ -5,6 +5,7 @@
         <h1>Sitemap</h1>
         <ul class="list-unstyled d-inline-block mb-5">
           <li><NuxtLink to="/">Homepage: Featured articles</NuxtLink></li>
+          <li><NuxtLink to="/about">About Stefan Auvache Bradley</NuxtLink></li>
           <li><NuxtLink to="/articles">Articles</NuxtLink></li>
           <li><NuxtLink to="/articles/agile">Agile Article Hub</NuxtLink></li>
           <li><NuxtLink to="/articles/iteration">Iteration Over Planning Article Hub</NuxtLink></li>
@@ -42,8 +43,8 @@ for (let i in Articles) {
 sortedArticles = sortByKey(Articles, "title", "atoz")
 // meta tags
 let metaTitle = 'Sitemap | Stefan Auvache Bradley'
-let metaDescription = 'Browse all pages and articles on stefanauvache.com—exploring Agile Personal Development and iterative approaches to life.'
+let metaDescription = 'Browse all pages and articles on stefanauvachebradley.com—exploring Agile Personal Development and iterative approaches to life.'
 let metaKeywords = 'Stefan Auvache Bradley sitemap, agile personal development articles'
-let metaCanonical = 'https://www.stefanauvache.com/sitemap'
+let metaCanonical = 'https://www.stefanauvachebradley.com/sitemap'
 useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
 </script>

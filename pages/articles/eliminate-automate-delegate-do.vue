@@ -3,7 +3,7 @@
     <div class="container thinnest-content">
       <div>
         <h1 class="mb-3">{{articleInfo.title}}</h1>
-	      <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" alt="" class="mb-3">
+	      <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" :alt="articleInfo.title" class="mb-3">
 
 	      <p>Some tasks engage and energize us. Others give our work meaning. Unfortunately, these tasks are often buried under a stack of less important stuff. They crowd our to-do list and demand our attention.</p>
 	      <p>When I start to feel like I have too much work on my plate, I use a simple task-management framework—Eliminate, Automate, Delegate, Do—to get organized and to be productive.</p>
@@ -44,9 +44,5 @@ const router = useRouter()
 const { currentRoute } = router
 const articleInfo = articlesList.find(article => article.slug === currentRoute.value.fullPath.replace('/articles/',''))
 // meta tags
-let metaTitle = `${articleInfo.title}`
-let metaDescription = `${articleInfo.description}`
-let metaKeywords = `Stefan, Stefan Auvache Bradley, Bradley, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
-let metaCanonical = `www.stefanauvache.com/articles/${articleInfo.slug}`
-useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
+useArticleSeo(articleInfo)
 </script>

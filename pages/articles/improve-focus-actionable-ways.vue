@@ -3,13 +3,13 @@
     <div class="container thinnest-content">
       <div>
         <h1 class="mb-3">{{articleInfo.title}}</h1>
-	      <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" alt="" class="mb-3">
+	      <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" :alt="articleInfo.title" class="mb-3">
 
 	      <p>Cal Newport is a prime example of sustained productivity. He published multiple books while working on a PhD in computer science at MIT. As a tenured professor at Georgetown University, he has continued to publish best-selling books—including <i>Deep Work</i>, <i>Digital Minimalism</i>, <i>A World Without Email</i>, and <i>Slow Productivity</i>.</p>
 
 	      <p>He also writes a widely read blog, hosts a popular podcast, and publishes essays in <i>The New Yorker</i> and <i>The New York Times</i>. On top of his career achievements, he is a husband and father with a normal family life.</p>
 
-	      <p>One of the keys to Newport’s incredible productivity is a carefully cultivated practice called <a href="https://www.stefanauvache.com/articles/work-deeply" target="_blank">deep work</a>. He defines <i>deep work</i> as:</p>
+	      <p>One of the keys to Newport’s incredible productivity is a carefully cultivated practice called <a href="https://www.stefanauvachebradley.com/articles/work-deeply" target="_blank">deep work</a>. He defines <i>deep work</i> as:</p>
 
 	      <p>"Professional activities performed in a state of distraction-free concentration that push our cognitive capabilities to their limit."</p>
 
@@ -88,9 +88,5 @@ const router = useRouter()
 const { currentRoute } = router
 const articleInfo = articlesList.find(article => article.slug === currentRoute.value.fullPath.replace('/articles/',''))
 // meta tags
-let metaTitle = `${articleInfo.title}`
-let metaDescription = `${articleInfo.description}`
-let metaKeywords = `Stefan, Stefan Auvache Bradley, Bradley, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
-let metaCanonical = `www.stefanauvache.com/articles/${articleInfo.slug}`
-useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
+useArticleSeo(articleInfo)
 </script>

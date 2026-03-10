@@ -3,7 +3,7 @@
     <div class="container thinnest-content">
       <div>
         <h1 class="mb-3">{{articleInfo.title}}</h1>
-        <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" alt="" class="mb-3">
+        <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" :alt="articleInfo.title" class="mb-3">
 
 	      <p class="quote">“It’s only a mistake if you don’t learn from it.” —Cary Elwes</p>
 	      <p>After more than a decade of success, executives at Pixar worried that the company was becoming too formulaic and dogmatic. Were there too many rules? Were there unnecessary hurdles in the creative process? Pixar was founded on innovative storytelling and wanted to continue to reimagine the way that stories were created.</p>
@@ -50,9 +50,5 @@ const router = useRouter()
 const { currentRoute } = router
 const articleInfo = articlesList.find(article => article.slug === currentRoute.value.fullPath.replace('/articles/',''))
 // meta tags
-let metaTitle = `${articleInfo.title}`
-let metaDescription = `${articleInfo.description}`
-let metaKeywords = `Stefan, Stefan Auvache Bradley, Bradley, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
-let metaCanonical = `www.stefanauvache.com/articles/${articleInfo.slug}`
-useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
+useArticleSeo(articleInfo)
 </script>

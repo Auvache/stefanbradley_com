@@ -3,7 +3,7 @@
     <div class="container thinnest-content">
       <div>
         <h1 class="mb-3">{{articleInfo.title}}</h1>
-        <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" alt="" class="mb-3">
+        <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" :alt="articleInfo.title" class="mb-3">
 
         <p>In 1937, the University of Washington men’s rowing crew won their second consecutive national championship. The previous year, they had won not only the national championship, but Olympic Gold in Berlin. Jim Ten Eyck, a storied collegiate rowing coach, said of the Washington varsity crew at the time, “it’s the greatest eight I ever saw, and I never expect to see another like it.”</p>
 
@@ -27,9 +27,5 @@ const router = useRouter()
 const { currentRoute } = router
 const articleInfo = articlesList.find(article => article.slug === currentRoute.value.fullPath.replace('/articles/',''))
 // meta tags
-let metaTitle = `${articleInfo.title}`
-let metaDescription = `${articleInfo.description}`
-let metaKeywords = `Stefan, Stefan Auvache Bradley, Bradley, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
-let metaCanonical = `www.stefanauvache.com/articles/${articleInfo.slug}`
-useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
+useArticleSeo(articleInfo)
 </script>

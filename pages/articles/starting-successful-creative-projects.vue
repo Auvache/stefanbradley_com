@@ -3,7 +3,7 @@
     <div class="container thinnest-content">
       <div>
         <h1 class="mb-3">{{articleInfo.title}}</h1>
-	      <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" alt="" class="mb-3">
+	      <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" :alt="articleInfo.title" class="mb-3">
 
         <p>Ryan Holiday has written 15 books, sold six million copies of those books, and spent more than 200 weeks on bestseller lists for his work. The secret to his creative success doesn't come from the goal to write loads of books, or even to sell a certain number of copies. His success comes from a daily reading and writing practice. Process over product, as it were.</p>
 
@@ -32,9 +32,5 @@ const router = useRouter()
 const { currentRoute } = router
 const articleInfo = articlesList.find(article => article.slug === currentRoute.value.fullPath.replace('/articles/',''))
 // meta tags
-let metaTitle = `${articleInfo.title}`
-let metaDescription = `${articleInfo.description}`
-let metaKeywords = `Stefan, Stefan Auvache Bradley, Bradley, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
-let metaCanonical = `www.stefanauvache.com/articles/${articleInfo.slug}`
-useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
+useArticleSeo(articleInfo)
 </script>

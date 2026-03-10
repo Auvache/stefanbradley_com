@@ -56,8 +56,22 @@ categories.forEach(category => {
 let metaTitle = 'Learning From Failure: Turn Setbacks into Growth | Stefan Auvache Bradley'
 let metaDescription = 'Failure isn\'t defeat—it\'s data. Learn how to analyze setbacks, extract lessons, and use failure as fuel for continuous improvement and personal growth.'
 let metaKeywords = 'learning from failure, failure as data, growth mindset, resilience, learning from mistakes, post mortem analysis, reframing failure, iteration and feedback'
-let metaCanonical = 'https://www.stefanauvache.com/articles/failure'
-useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
+let metaCanonical = 'https://www.stefanauvachebradley.com/articles/failure'
+useSeoMeta({
+  title: metaTitle,
+  ogTitle: metaTitle,
+  description: metaDescription,
+  ogDescription: metaDescription,
+  keywords: metaKeywords,
+  canonical: metaCanonical,
+  robots: 'index, follow',
+  ogUrl: metaCanonical,
+  ogType: 'website',
+  ogImage: 'https://www.stefanauvachebradley.com/img/profile.jpg',
+  twitterTitle: metaTitle,
+  twitterDescription: metaDescription,
+  twitterImage: 'https://www.stefanauvachebradley.com/img/profile.jpg',
+})
 
 definePageMeta({
 	layout: 'hub'

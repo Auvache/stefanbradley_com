@@ -82,11 +82,25 @@ for (let i in Articles) {
 }
 
 // meta tags
-let metaTitle = 'Stefan Auvache Bradley | Articles'
-let metaDescription = 'Read articles with insights on business, technology, literature, philosophy, music, and life.'
-let metaKeywords = 'Stefan, Stefan Auvache Bradley, Bradley, articles, agile living, agile, simple systems, intentional action, meaningful focus, Stefan Auvache Bradley articles'
-let metaCanonical = 'https://www.stefanauvache.com/articles'
-useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
+let metaTitle = 'Articles on Agile Personal Development | Stefan Auvache Bradley'
+let metaDescription = 'Articles by Stefan Auvache Bradley on applying software engineering and project management principles to personal growth, productivity, and intentional living.'
+let metaKeywords = 'Stefan Auvache Bradley, agile personal development articles, software engineering life lessons, iterative goal setting, personal growth frameworks, project management principles for life'
+let metaCanonical = 'https://www.stefanauvachebradley.com/articles'
+useSeoMeta({
+  title: metaTitle,
+  ogTitle: metaTitle,
+  description: metaDescription,
+  ogDescription: metaDescription,
+  keywords: metaKeywords,
+  canonical: metaCanonical,
+  robots: 'index, follow',
+  ogUrl: metaCanonical,
+  ogType: 'website',
+  ogImage: 'https://www.stefanauvachebradley.com/img/profile.jpg',
+  twitterTitle: metaTitle,
+  twitterDescription: metaDescription,
+  twitterImage: 'https://www.stefanauvachebradley.com/img/profile.jpg',
+})
 
 definePageMeta({
 	layout: 'hub'

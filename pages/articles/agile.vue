@@ -56,8 +56,22 @@ categories.forEach(category => {
 let metaTitle = 'Agile Personal Development: Apply Software Principles to Life | Stefan Auvache Bradley'
 let metaDescription = 'Learn how to apply Agile thinking from software engineering to personal growth, productivity, and intentional living. Discover frameworks, techniques, and practical applications for a more fulfilling life.'
 let metaKeywords = 'agile personal development, agile thinking, software engineering principles, personal growth, iteration, intentional living, productivity systems, agile methodology life, self improvement frameworks, experimentation over planning'
-let metaCanonical = 'https://www.stefanauvache.com/articles/agile'
-useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
+let metaCanonical = 'https://www.stefanauvachebradley.com/articles/agile'
+useSeoMeta({
+  title: metaTitle,
+  ogTitle: metaTitle,
+  description: metaDescription,
+  ogDescription: metaDescription,
+  keywords: metaKeywords,
+  canonical: metaCanonical,
+  robots: 'index, follow',
+  ogUrl: metaCanonical,
+  ogType: 'website',
+  ogImage: 'https://www.stefanauvachebradley.com/img/profile.jpg',
+  twitterTitle: metaTitle,
+  twitterDescription: metaDescription,
+  twitterImage: 'https://www.stefanauvachebradley.com/img/profile.jpg',
+})
 
 definePageMeta({
 	layout: 'hub'

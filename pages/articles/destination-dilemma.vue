@@ -56,8 +56,22 @@ categories.forEach(category => {
 let metaTitle = 'The Destination Dilemma: Making Decisions When You Don\'t Know What You Want | Stefan Auvache Bradley'
 let metaDescription = 'How can you plan for what you haven\'t experienced? Learn how to make better decisions under uncertainty and build a fulfilling life without knowing exactly where you\'re going.'
 let metaKeywords = 'destination dilemma, decision making uncertainty, finding fulfillment, what do i want in life, career uncertainty, achievement vs fulfillment, intentional living, life direction'
-let metaCanonical = 'https://www.stefanauvache.com/articles/destination-dilemma'
-useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
+let metaCanonical = 'https://www.stefanauvachebradley.com/articles/destination-dilemma'
+useSeoMeta({
+  title: metaTitle,
+  ogTitle: metaTitle,
+  description: metaDescription,
+  ogDescription: metaDescription,
+  keywords: metaKeywords,
+  canonical: metaCanonical,
+  robots: 'index, follow',
+  ogUrl: metaCanonical,
+  ogType: 'website',
+  ogImage: 'https://www.stefanauvachebradley.com/img/profile.jpg',
+  twitterTitle: metaTitle,
+  twitterDescription: metaDescription,
+  twitterImage: 'https://www.stefanauvachebradley.com/img/profile.jpg',
+})
 
 definePageMeta({
 	layout: 'hub'

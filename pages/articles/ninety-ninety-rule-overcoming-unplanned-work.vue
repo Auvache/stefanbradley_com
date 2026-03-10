@@ -3,7 +3,7 @@
     <div class="container thinnest-content">
       <div>
         <h1 class="mb-3">{{articleInfo.title}}</h1>
-	      <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" alt="" class="mb-3">
+	      <img v-if="articleInfo.image !== 'title.jpg'" :src="`/img/articles/${articleInfo.image}`" :alt="articleInfo.title" class="mb-3">
 
         <p class="quote">"The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time."<br/> - Tom Cargill</p>
 
@@ -27,7 +27,7 @@
 
 	      <h3>Gain Visibility</h3>
 
-	      <p>In Gene Kim’s novel <a href="https://stefanauvache.com/articles/books-that-have-changed-my-life#the-phoenix-project" target="_blank"><em>The Phoenix Project</em></a>, a new leadership team is charged with saving a floundering IT department. They struggle at first because they don’t have a clear view of all ongoing work. Deadlines are constantly missed and no one understands why. Their first action is to map out all of the projects, responsibilities, and other work assigned to the IT department. Doing so provides insight into the workload, bottlenecks, and process issues of the department. Only then is the team able to fix problems.</p>
+	      <p>In Gene Kim’s novel <a href="https://stefanauvachebradley.com/articles/books-that-have-changed-my-life#the-phoenix-project" target="_blank"><em>The Phoenix Project</em></a>, a new leadership team is charged with saving a floundering IT department. They struggle at first because they don’t have a clear view of all ongoing work. Deadlines are constantly missed and no one understands why. Their first action is to map out all of the projects, responsibilities, and other work assigned to the IT department. Doing so provides insight into the workload, bottlenecks, and process issues of the department. Only then is the team able to fix problems.</p>
 
 	      <p>The first thing that a good project manager focuses on is visibility—an understanding of how much work is already present. If you don’t know how much work there is to do on a project, you can’t accurately set deadlines. On a larger scale, if you don’t know how many projects and responsibilities you already have, you can’t confidently decide if you have the bandwidth to accept more work.</p>
 
@@ -51,7 +51,7 @@
 
 	      <p>When unplanned work shows up, don’t automatically treat it as an urgent task that needs your immediate attention. Instead, triage.</p>
 
-	      <p>In hospitals, doctors triage to decide which patients need immediate care. A patient in cardiac arrest is treated before a patient with a dislocated thumb. The same logic applies to your projects and priorities. Just like a doctor prioritizes patients, you can identify urgent, essential work and separate it from the stuff that can be done later (<a href="https://stefanauvache.com/articles/eliminate-automate-delegate-do" target="_blank">or doesn’t need to be done at all</a>).</p>
+	      <p>In hospitals, doctors triage to decide which patients need immediate care. A patient in cardiac arrest is treated before a patient with a dislocated thumb. The same logic applies to your projects and priorities. Just like a doctor prioritizes patients, you can identify urgent, essential work and separate it from the stuff that can be done later (<a href="https://stefanauvachebradley.com/articles/eliminate-automate-delegate-do" target="_blank">or doesn’t need to be done at all</a>).</p>
 
 	      <p>Don’t give the same attention to every piece of unplanned work. Triage to avoid wasting time doing unimportant things.</p>
 
@@ -80,9 +80,5 @@ const router = useRouter()
 const { currentRoute } = router
 const articleInfo = articlesList.find(article => article.slug === currentRoute.value.fullPath.replace('/articles/',''))
 // meta tags
-let metaTitle = `${articleInfo.title}`
-let metaDescription = `${articleInfo.description}`
-let metaKeywords = `Stefan, Stefan Auvache Bradley, Bradley, ${articleInfo.categories.join(', ')}, ${articleInfo.keywords}`
-let metaCanonical = `www.stefanauvache.com/articles/${articleInfo.slug}`
-useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
+useArticleSeo(articleInfo)
 </script>

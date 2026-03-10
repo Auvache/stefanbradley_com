@@ -1,0 +1,29 @@
+# Stefan Auvache Bradley
+
+> Stefan Auvache Bradley is a software engineer and writer. He applies iterative principles from software engineering and project management — such as Agile methodology, feedback loops, sprint planning, and experimentation — to personal growth, career decisions, and intentional living. His site, stefanauvachebradley.com, is home to his writing on Agile Personal Development and his weekly newsletter, Food for Thought.
+
+Stefan holds a Master's degree in Information Systems Management from Brigham Young University and lives in Vancouver, Washington with his family.
+
+Agile Personal Development is the practice of applying iterative, experimental frameworks from software engineering and project management to personal growth. The core cycle is: plan a little, act, measure what happened, and iterate. Instead of rigid long-term plans, this approach uses small experiments and thoughtful iteration to build a life you actually want.
+
+## About
+
+- [About Stefan Auvache Bradley](https://www.stefanauvachebradley.com/about): Bio, background, and what Agile Personal Development means.
+
+## Topic Hubs
+
+- [Living the Agile Life](https://www.stefanauvachebradley.com/articles/agile): Apply software engineering principles to build a more intentional, fulfilling life.
+- [Iteration Over Planning](https://www.stefanauvachebradley.com/articles/iteration): Use experiments and short-term goals to find direction and make adjustments.
+- [The Destination Dilemma](https://www.stefanauvachebradley.com/articles/destination-dilemma): How to set worthwhile goals if you don't know what you want.
+- [Systems Over Chaos](https://www.stefanauvachebradley.com/articles/systems): Build sustainable productivity systems to create space for what matters.
+- [Learning From Failure](https://www.stefanauvachebradley.com/articles/failure): Turn setbacks into data and use failure for continuous improvement.
+
+## Key Pages
+
+- [All Articles](https://www.stefanauvachebradley.com/articles): Browse all articles on Agile Personal Development.
+- [Subscribe to Food for Thought](https://www.stefanauvachebradley.com/subscribe): Weekly newsletter — one idea per week on iterating toward a fulfilling life.
+- [Contact](https://www.stefanauvachebradley.com/contact): Reach Stefan at stefan@stefanauvachebradley.com.
+
+## Optional
+
+- [Full article index with descriptions](https://www.stefanauvachebradley.com/llms-full.txt): Detailed listing of every article with summaries, for deeper context.

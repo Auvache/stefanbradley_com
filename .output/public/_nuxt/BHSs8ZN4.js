@@ -1,0 +1,1 @@
+import{h as s,c as _,o as a,e,x as r,b as l,y as u,A as m,n as f}from"./CC6MPIJW.js";const p={};function d(o,b){const n=u,t=m,c=f;return a(),_("div",null,[e(n),r(o.$slots,"default"),e(t),l("footer",null,[e(c)])])}const x=s(p,[["render",d]]);export{x as default};

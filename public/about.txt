@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Kodchasan
+- Font Title: Lexend
 - Font Author: undefined
-- Font Source: https://fonts.gstatic.com/s/kodchasan/v19/1cX0aUPOAJv9sG4I-DJeM1Sggeqo3eMeoA.ttf
+- Font Source: https://fonts.gstatic.com/s/lexend/v25/wlptgwvFAVdoq2_F94zlCfv0bz1WC5IR_LBte6KuGEo.ttf
 - Font License: undefined)

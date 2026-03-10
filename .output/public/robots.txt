@@ -1,7 +1,31 @@
-# /robots.txt file for https://www.stefanauvache.com/
+# /robots.txt file for https://www.stefanauvachebradley.com/
 
 User-agent: *
 Disallow: /include/
 Disallow: /articles/Template
 
-Sitemap: https://www.stefanauvache.com/sitemap.xml
+# Allow AI crawlers for GEO (Generative Engine Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://www.stefanauvachebradley.com/sitemap.xml
+
+# LLM context files
+# See https://llmstxt.org/
+# llms.txt: concise site overview for AI models
+# llms-full.txt: comprehensive article index with descriptions

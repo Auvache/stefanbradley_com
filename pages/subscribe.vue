@@ -23,11 +23,25 @@ definePageMeta({
 })
 
 // meta tags
-let metaTitle = 'Subscribe | Stefan Auvache Bradley'
-let metaDescription = 'Join the weekly newsletter on Agile Personal Development. Get one idea every week about iterating toward a life you actually want—no hype, no fluff.'
-let metaKeywords = 'agile personal development newsletter, Stefan Auvache Bradley subscribe, weekly insights, iterative self improvement'
-let metaCanonical = 'https://www.stefanauvache.com/subscribe'
-useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
+let metaTitle = 'Subscribe to Food for Thought | Stefan Auvache Bradley'
+let metaDescription = 'Join the weekly newsletter by Stefan Auvache Bradley on Agile Personal Development. One idea every week about iterating toward a life you actually want—no hype, no fluff.'
+let metaKeywords = 'Stefan Auvache Bradley newsletter, agile personal development newsletter, Food for Thought newsletter, weekly insights, iterative self improvement'
+let metaCanonical = 'https://www.stefanauvachebradley.com/subscribe'
+useSeoMeta({
+  title: metaTitle,
+  ogTitle: metaTitle,
+  description: metaDescription,
+  ogDescription: metaDescription,
+  keywords: metaKeywords,
+  canonical: metaCanonical,
+  robots: 'index, follow',
+  ogUrl: metaCanonical,
+  ogType: 'website',
+  ogImage: 'https://www.stefanauvachebradley.com/img/profile.jpg',
+  twitterTitle: metaTitle,
+  twitterDescription: metaDescription,
+  twitterImage: 'https://www.stefanauvachebradley.com/img/profile.jpg',
+})
 </script>
 
 <style lang="scss" scoped>

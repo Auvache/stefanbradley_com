@@ -1,0 +1,87 @@
+# Stefan Auvache Bradley — Full Article Index
+
+> This is the comprehensive article listing for stefanauvachebradley.com. Stefan Auvache Bradley writes about Agile Personal Development: applying iterative software engineering and project management principles to personal growth, career decisions, and intentional living. For a concise overview, see /llms.txt.
+
+Stefan is a software engineer with a Master's degree in Information Systems Management from Brigham Young University. He publishes a weekly newsletter called Food for Thought — one idea per week about building your life the way you build great software, through small experiments and thoughtful iteration.
+
+## Living the Agile Life
+
+Apply software engineering principles — like Agile sprints, the Ninety-Ninety Rule, premature optimization, and chaos engineering — to build a more intentional, fulfilling life.
+
+- [Engineering Skills for a More Fulfilling Life](https://www.stefanauvachebradley.com/articles/engineering-skills-for-a-more-fulfilling-life): Discover 8 powerful software engineering principles that transform everyday life. Learn to prioritize improvement work, master intentional time management, cultivate deep focus, and apply agile thinking to become more productive and fulfilled.
+- [The Ninety-Ninety Rule and Overcoming Unplanned Work](https://www.stefanauvachebradley.com/articles/ninety-ninety-rule-overcoming-unplanned-work): Learn how the Ninety-Ninety Rule reveals the hidden cost of unplanned work—and how to manage surprise tasks with visibility, slack time, and smart triage.
+- [How to Overcome Perfectionism: Premature Optimization and Making Things Work](https://www.stefanauvachebradley.com/articles/overcome-perfectionism-premature-optimization): Learn how to overcome perfectionism by avoiding premature optimization—start with "making it work" before refining and optimizing your craft.
+- [The ROI of Self-Improvement](https://www.stefanauvachebradley.com/articles/roi-of-self-improvement): From Henry Ford's assembly line to personal growth, the ROI of self-improvement proves that investing in skills, focus, and efficiency pays lasting dividends.
+- [Overcoming Frustration Distraction: Idea Incubation and Building Understanding](https://www.stefanauvachebradley.com/articles/overcoming-frustration-distraction-idea-incubation-understanding): Learn how to overcome frustration distraction and boost productivity through idea incubation and building a deep understanding. Turn mental blocks into insights and long-term skill growth.
+- [Software Bugs and Rabbit Holes](https://www.stefanauvachebradley.com/articles/software-bugs-and-rabbit-holes): Learn how software bugs turn into rabbit holes, why opportunity cost matters, and how to stay focused while addressing unplanned issues effectively.
+- [The Incompleteness of Our Ideas Becomes Clear Only During Implementation](https://www.stefanauvachebradley.com/articles/the-incompleteness-of-our-ideas): Fear of failure delays action. Learn why ideas are only tested through implementation and how premature optimization can block progress.
+- [Agile Development: A Pattern for Improvement](https://www.stefanauvachebradley.com/articles/agile-development-a-pattern-for-improvement): Learn how Agile principles from software engineering—plan, act, measure, iterate—can improve personal growth, productivity, and intentional action.
+- [Netflix, Chaos Monkey, and Preparing for the Worst](https://www.stefanauvachebradley.com/articles/netflix-chaos-monkey-and-preparing-for-the-worst): Learn how Netflix's Chaos Monkey approach and premortem planning can help you prevent catastrophic failures. Discover how to identify weaknesses, prepare for problems, and build resilience before chaos strikes.
+- [Have You Considered the Cost?](https://www.stefanauvachebradley.com/articles/have-you-considered-the-cost): Explore the true cost of your decisions—time, dignity, and peace of mind. Learn how to weigh ambition and desire against what matters most in life.
+- [Eliminate Automate Delegate Do](https://www.stefanauvachebradley.com/articles/eliminate-automate-delegate-do): Learn a simple 4-step task management framework to reduce overwhelm and focus on what matters. Eliminate unnecessary tasks, automate repetitive work, delegate strategically, and do deep work with clarity.
+
+## Iteration Over Planning
+
+Use experiments, feedback loops, and short-term goals to find direction and make adjustments instead of locking into rigid plans.
+
+- [Escaping the Trap of Social Comparison](https://www.stefanauvachebradley.com/articles/escaping-the-trap-of-social-comparison): Social comparison drives us to chase goals we don't actually want. Learn how to question your goals, experiment with small versions of success, and reflect regularly to set goals with intention instead of following the herd.
+- [Overcoming the Einstellung Effect: When Experience Gets in Your Way](https://www.stefanauvachebradley.com/articles/overcoming-einstellung-effect-when-experience-gets-in-your-way): Experience can blind you to better solutions. Learn how the Einstellung Effect traps you in familiar methods and how reflection and experimentation keep you intentional.
+- [AI Strategies to Safeguard Personal Development](https://www.stefanauvachebradley.com/articles/ai-strategies-for-personal-development): Learn how to use AI without sacrificing your growth. Discover strategies to leverage AI for learning, productivity, and skill development while protecting critical thinking, creativity, and problem-solving.
+- [How to Improve Anything: Building a World-Class Feedback Loop](https://www.stefanauvachebradley.com/articles/how-to-improve-anything-feedback-loop): Learn how to create a world-class feedback loop to improve any skill, habit, or goal. Discover methods to get reliable feedback, capture it efficiently, and apply insights for continuous growth.
+- [Analyze and Apply Lessons Logically](https://www.stefanauvachebradley.com/articles/analyze-and-apply-lessons-logically): Learn how to analyze feedback effectively and turn insights into action. Avoid analysis paralysis, identify patterns, address root causes, and improve like Kobe Bryant.
+- [Don't Give Into Analysis Paralysis](https://www.stefanauvachebradley.com/articles/dont-give-into-analysis-paralysis): Overcome analysis paralysis and start taking action. Learn how to use feedback effectively without getting stuck in endless planning and overthinking.
+- [Three Notes at a Time](https://www.stefanauvachebradley.com/articles/three-notes-at-a-time): Learn how to master skills by breaking them into small, manageable chunks. Apply the "three notes at a time" method from music to any skill or goal.
+- [Where Do You Go for Feedback?](https://www.stefanauvachebradley.com/articles/where-do-you-go-for-feedback): Not all feedback is created equal. Learn how to find honest, fast, and relevant sources to improve your work and grow your skills.
+- [Procrastination, Momentum, and Turning Pro](https://www.stefanauvachebradley.com/articles/procrastination-momentum-and-turning-pro): Learn how to overcome procrastination, build momentum, and turn pro. Harness external motivation, internal drive, and discipline to get your work done.
+- [Starting Successful Creative Projects](https://www.stefanauvachebradley.com/articles/starting-successful-creative-projects): Learn how to turn small ideas into great work by focusing on process over product, inspired by Ryan Holiday's principles for creative success.
+- [Be Curious, Not Opinionated](https://www.stefanauvachebradley.com/articles/be-curious-not-opinionated): Discover why curiosity beats opinion. Learn how staying humble and asking questions fosters learning, trust, and innovation in life and work.
+
+## The Destination Dilemma
+
+How to set worthwhile goals when you don't know what you want. Career decisions, intrinsic motivation, and finding fulfillment without a fixed destination.
+
+- [How to Build and Showcase Your Skills Without a Degree](https://www.stefanauvachebradley.com/articles/build-showcase-skills-without-degree): Learn how to demonstrate competence and stand out without a college degree. Build real-world skills through projects and artifacts that showcase your abilities and overcome credentialism.
+- [A Career Worth Pursuing](https://www.stefanauvachebradley.com/articles/a-career-worth-pursuing): Discover how to choose a career that aligns with your natural strengths, interests, and opportunities. Maximize success by focusing on what comes easiest to you.
+- [Credentials, Artifacts, and Competence](https://www.stefanauvachebradley.com/articles/credentials-artifacts-and-competence): Nelson Mandela showed that competence matters more than credentials. Focus on skill, curiosity, and results, and artifacts will naturally follow.
+- [Save the Performance for the Stage](https://www.stefanauvachebradley.com/articles/save-the-performance-for-the-stage): John Mayer's career shows that true fulfillment comes from focusing on craft, not public perception. Learn to prioritize meaningful work over fame.
+- [An Equation for a Successful Blog (And Life)](https://www.stefanauvachebradley.com/articles/an-equation-for-a-successful-blog-and-life): Discover the true formula for success. Focus on what matters most, experiment strategically, and eliminate unnecessary actions to get better results.
+- [On Living a Fulfilling Life](https://www.stefanauvachebradley.com/articles/on-living-a-fulfilling-life): Learn life lessons from Ric Elias, a Hudson River plane crash survivor. Prioritize joy, focus on family, and live fully in the present while planning for the future.
+- [Rewards, Punishments, and Giving Life Less Meaning](https://www.stefanauvachebradley.com/articles/giving-life-less-meaning): Discover why fines and rewards can backfire. Learn how intrinsic motivation drives behavior, creativity, and engagement more than transactional incentives.
+- [What I Learned From Ray Dalio and Hiring New People](https://www.stefanauvachebradley.com/articles/hiring-new-people): Learn hiring lessons from Ray Dalio's Principles: aligning values, abilities, and skills for the right fit in work and life relationships.
+- [Asking Useful Questions](https://www.stefanauvachebradley.com/articles/asking-useful-questions): Learn how asking the right questions can guide goals, creative projects, careers, and products. Insights from Cal Newport and actionable strategies.
+- [Monk Week: Harnessing Solitude for Intentional Living](https://www.stefanauvachebradley.com/articles/monk-week-solitude-intentional-living): Learn how intentional solitude, inspired by "Monk Week," can reduce stress, boost creativity, and help you live with clarity and purpose.
+
+## Systems Over Chaos
+
+Build sustainable productivity systems — deep work, focus, reading habits, energy management — to create space for what matters.
+
+- [Actionable Ways to Improve Focus](https://www.stefanauvachebradley.com/articles/improve-focus-actionable-ways): Learn actionable strategies to improve focus and do deep work. Discover techniques to reduce distractions, avoid attention residue, train your mind, and embrace boredom for better productivity and concentration.
+- [How to Improve Attention Span: Inhibitory Control](https://www.stefanauvachebradley.com/articles/improve-attention-span-inhibitory-control): Learn how to strengthen your attention span by improving inhibitory control. Discover practical exercises and strategies to ignore distractions, resist impulses, and focus deeply on what matters.
+- [How to Write (And Live) With More More Meaning](https://www.stefanauvachebradley.com/articles/write-and-live-with-more-meaning): Learn how to write and live with purpose. Focus on simplicity in writing and meaningful actions in life to create impact, fulfillment, and substance in everything you do.
+- [How to Change Your Life By Reading](https://www.stefanauvachebradley.com/articles/how-to-change-your-life-by-reading): Discover how a consistent reading habit can transform your life. Learn strategies to read more effectively, choose impactful books, and turn knowledge into competence, creativity, and lifelong personal growth.
+- [Measure What Is in Your Control](https://www.stefanauvachebradley.com/articles/measure-what-is-in-your-control): Learn how to focus on lead measures—metrics you can control daily—to achieve long-term success. Discover why Stephen King writes 2,000 words a day and how tracking effort, not outcomes, drives results.
+- [To Do Truly Great Work](https://www.stefanauvachebradley.com/articles/to-do-truly-great-work): Discover how to achieve truly great work by embracing deep focus. Learn why undistracted attention, not multitasking, leads to mastery, breakthroughs, and lasting results.
+- [Why You Should Read (Part II) - Overcoming Frustration Distraction](https://www.stefanauvachebradley.com/articles/why-you-should-read-part-II): Learn how reading can overcome frustration distraction. Gain expertise, solve problems efficiently, and boost focus like top software engineers and hackers.
+- [Don't Waste Your Energy](https://www.stefanauvachebradley.com/articles/dont-waste-your-energy): Learn from Olympian Joe Rantz: forgive, focus, and protect your energy. Don't let anger or bitterness drain your life—channel your energy toward progress.
+- [Establishing Context for Meaningful Research](https://www.stefanauvachebradley.com/articles/meaningful-research): Learn how meaningful research, guided by useful questions and clear context, drives better outcomes in creativity, work, and personal growth.
+- [Why You Should Read](https://www.stefanauvachebradley.com/articles/why-you-should-read): Discover why reading surpasses formal education, builds lifelong competence, and how to choose books that elevate your skills and personal growth.
+- [Work Deeply](https://www.stefanauvachebradley.com/articles/work-deeply): Learn how to work deeply and maximize focus. Discover strategies to eliminate distractions, prioritize tasks, and achieve meaningful productivity.
+
+## Learning From Failure
+
+Turn setbacks into data. Diagnose failure types, remove ego, seek candid feedback, and use failure as fuel for continuous improvement.
+
+- [Failure Is an Option](https://www.stefanauvachebradley.com/articles/failure-is-an-option): Failure is inevitable, but learning from it isn't. Discover how to remove ego, diagnose failure types, and turn mistakes into progress through reflection and iteration.
+- [Ultracrepidarianism, Imposter Syndrome, and the Fight for Humility](https://www.stefanauvachebradley.com/articles/ultracrepidarianism-imposter-syndrome-and-the-fight-for-humility): Avoid the traps of ultracrepidarianism and imposter syndrome. Learn how humility, curiosity, and honest self-assessment can accelerate learning and personal growth.
+- [Pay Attention to Externalities](https://www.stefanauvachebradley.com/articles/pay-attention-to-externalities): Learn why every action you take has ripple effects. Understand the concept of externalities and how your decisions can impact others and the world around you.
+- [Keep Your Failures in Scope](https://www.stefanauvachebradley.com/articles/keep-your-failures-in-scope): Learn how to handle setbacks without letting them define you. Discover strategies to analyze mistakes, try again, pivot effectively, and keep your failures in scope.
+- [The Pixar Braintrust and Candid Feedback](https://www.stefanauvachebradley.com/articles/the-pixar-braintrust-and-candid-feedback): The Pixar Braintrust shows how candid feedback drives improvement. Learn how honest critique can help you refine your work and achieve excellence.
+- [To Whom It May Inspire](https://www.stefanauvachebradley.com/articles/to-whom-it-may-inspire): Progress feels slow day-to-day, but persistence compounds over time. Learn how long-term dedication turns effort into lasting success and creative breakthroughs.
+- [Struggle Well](https://www.stefanauvachebradley.com/articles/struggle-well): True fulfillment comes from overcoming challenges, not just achieving goals. Learn to find meaning and joy through struggle and daily effort.
+
+## Key Pages
+
+- [About Stefan Auvache Bradley](https://www.stefanauvachebradley.com/about): Bio, background, education, and what Agile Personal Development means.
+- [All Articles](https://www.stefanauvachebradley.com/articles): Browse all articles organized by topic.
+- [Subscribe to Food for Thought](https://www.stefanauvachebradley.com/subscribe): Weekly newsletter — one idea per week on iterating toward a fulfilling life.
+- [Contact](https://www.stefanauvachebradley.com/contact): Reach Stefan at stefan@stefanauvachebradley.com.

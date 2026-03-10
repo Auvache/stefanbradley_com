@@ -1,0 +1,1 @@
+import{h as n,c as t,o as a,e as c,x as r,y as s}from"./CC6MPIJW.js";const _={};function l(e,f){const o=s;return a(),t("div",null,[c(o),r(e.$slots,"default")])}const m=n(_,[["render",l]]);export{m as default};

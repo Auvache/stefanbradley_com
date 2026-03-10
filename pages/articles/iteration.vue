@@ -56,8 +56,22 @@ categories.forEach(category => {
 let metaTitle = 'Iteration Over Planning: Test Your Way to Clarity | Stefan Auvache Bradley'
 let metaDescription = 'Stop locking into rigid plans. Learn how to iterate your way toward a fulfilling life through small experiments, feedback loops, and continuous adjustment.'
 let metaKeywords = 'iteration over planning, iterative self improvement, experimentation, feedback loops, test before committing, personal experiments, adaptive planning, continuous improvement'
-let metaCanonical = 'https://www.stefanauvache.com/articles/iteration'
-useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
+let metaCanonical = 'https://www.stefanauvachebradley.com/articles/iteration'
+useSeoMeta({
+  title: metaTitle,
+  ogTitle: metaTitle,
+  description: metaDescription,
+  ogDescription: metaDescription,
+  keywords: metaKeywords,
+  canonical: metaCanonical,
+  robots: 'index, follow',
+  ogUrl: metaCanonical,
+  ogType: 'website',
+  ogImage: 'https://www.stefanauvachebradley.com/img/profile.jpg',
+  twitterTitle: metaTitle,
+  twitterDescription: metaDescription,
+  twitterImage: 'https://www.stefanauvachebradley.com/img/profile.jpg',
+})
 
 definePageMeta({
 	layout: 'hub'

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs -I {} sh -c 'echo \"\"=== {} ===\"\" && head -50 {}')",
+      "Bash(python3 -m json.tool)",
+      "Bash(sed 's/\"\"title\"\": \"\"//g')",
+      "WebSearch",
+      "Bash(while read file)",
+      "Bash(do)",
+      "Bash(perl -0777 -i -pe \"s|// meta tags\\\\r\\\\nlet metaTitle = \\\\`\\\\$\\\\{articleInfo\\\\.title\\\\}\\\\`\\\\r\\\\nlet metaDescription = \\\\`\\\\$\\\\{articleInfo\\\\.description\\\\}\\\\`\\\\r\\\\nlet metaKeywords = \\\\`Stefan, Stefan Auvache Bradley, Bradley, \\\\$\\\\{articleInfo\\\\.categories\\\\.join\\\\\\\\\\('', ''\\\\\\\\\\)\\\\}, \\\\$\\\\{articleInfo\\\\.keywords\\\\}\\\\`\\\\r\\\\nlet metaCanonical = \\\\`www\\\\.stefanauvache\\\\.com/articles/\\\\$\\\\{articleInfo\\\\.slug\\\\}\\\\`\\\\r\\\\nuseSeoMeta\\\\\\\\\\(\\\\{title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: ''index, follow''\\\\}\\\\\\\\\\)|// meta tags\\\\r\\\\nuseArticleSeo\\(articleInfo\\)|gs\" \"$file\")",
+      "Bash(done)",
+      "Bash(node -e \":*)",
+      "Bash(npm run build)",
+      "WebFetch(domain:llmstxt.org)",
+      "Bash(node scripts/gen-llms-full.js)",
+      "Bash(node C:/Users/sbradley/stefan/stefanauvache/scripts/gen-llms-full.cjs)"
+    ]
+  }
+}

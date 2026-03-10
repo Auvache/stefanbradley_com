@@ -56,8 +56,22 @@ categories.forEach(category => {
 let metaTitle = 'Productivity Systems for Intentional Living | Stefan Auvache Bradley'
 let metaDescription = 'Build sustainable systems that create space for iteration and experimentation. Learn frameworks for focus, time management, and working deeply on what matters.'
 let metaKeywords = 'productivity systems, intentional living, time management, deep work, sustainable productivity, focus systems, environment design, productivity frameworks'
-let metaCanonical = 'https://www.stefanauvache.com/articles/systems'
-useSeoMeta({title: metaTitle, ogTitle: metaTitle, description: metaDescription, ogDescription: metaDescription, keywords: metaKeywords, canonical: metaCanonical, robots: 'index, follow'})
+let metaCanonical = 'https://www.stefanauvachebradley.com/articles/systems'
+useSeoMeta({
+  title: metaTitle,
+  ogTitle: metaTitle,
+  description: metaDescription,
+  ogDescription: metaDescription,
+  keywords: metaKeywords,
+  canonical: metaCanonical,
+  robots: 'index, follow',
+  ogUrl: metaCanonical,
+  ogType: 'website',
+  ogImage: 'https://www.stefanauvachebradley.com/img/profile.jpg',
+  twitterTitle: metaTitle,
+  twitterDescription: metaDescription,
+  twitterImage: 'https://www.stefanauvachebradley.com/img/profile.jpg',
+})
 
 definePageMeta({
 	layout: 'hub'
